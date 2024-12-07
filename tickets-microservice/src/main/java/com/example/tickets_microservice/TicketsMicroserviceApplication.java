@@ -12,11 +12,11 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 @EnableAspectJAutoProxy
 public class TicketsMicroserviceApplication {
-	@Bean
+	/*@Bean
 	@LoadBalanced
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
-	}
+	}*/
 	public static void main(String[] args) {
 		SpringApplication.run(TicketsMicroserviceApplication.class, args);
 	}
